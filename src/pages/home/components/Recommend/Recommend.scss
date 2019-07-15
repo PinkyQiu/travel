@@ -1,0 +1,47 @@
+@import '~styles/mixin.scss';
+.mod-recommend {
+  .title {
+    line-height: .8rem;
+    text-indent: .32rem;
+    background: #eee;
+    font-size: 15px;
+  }
+  .item {
+    display: flex;
+    overflow: hidden;
+    padding: .24rem .32rem;
+  }
+  .item-img {
+    width: 1.6rem;
+    height: 1.6rem;
+    .pic {
+      width: 100%;
+      border-radius: .05rem;
+    }
+  }
+  .txt-wp {
+    flex: 1;
+    padding: 0 0 0 .2rem;
+  }
+  .item-title {
+    line-height: .54rem;
+    font-size: .32rem;
+    @include t_nowrap(5rem);
+  }
+  .desc {
+    line-height: .4rem;
+    color: #ccc;
+    @include t_nowrap(5rem);
+  }
+  .btn {
+    background: #ff9300;
+    padding: 0 .2rem;
+    border-radius: .06rem;
+    margin-top: .2rem;
+    color: #fff;
+    outline: none;
+    -webkit-appearance: none;
+    border: none;
+    line-height: .4rem;
+  }
+}

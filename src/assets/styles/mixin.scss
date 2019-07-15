@@ -1,0 +1,16 @@
+// 超过某个长度显示省略号
+@mixin t_nowrap($width:100%,$lineNum:1){
+	@if $lineNum == 1{
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width:$width;
+		vertical-align: top;
+	}@else{
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: $lineNum;
+		overflow: hidden;
+		white-space:normal;
+	}
+}

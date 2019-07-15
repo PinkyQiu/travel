@@ -1,0 +1,33 @@
+@import '~styles/mixin.scss';
+.mod-weekend {
+  .title {
+    line-height: .8rem;
+    text-indent: .32rem;
+    background: #eee;
+    font-size: 15px;
+  }
+  .item {
+    overflow: hidden;
+    margin-bottom: .4rem;
+  }
+  .item-img {
+    width: 100%;
+    margin-bottom: .1rem;
+    .pic {
+      width: 100%;
+    }
+  }
+  .txt-wp {
+    padding-left: 10px;
+  }
+  .item-title {
+    line-height: .48rem;
+    font-size: .32rem;
+    @include t_nowrap(5rem);
+  }
+  .desc {
+    line-height: .36rem;
+    color: #ccc;
+    @include t_nowrap(5rem);
+  }
+}

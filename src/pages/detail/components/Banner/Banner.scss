@@ -1,0 +1,33 @@
+@import '~styles/var.scss';
+.detail-banner {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 55%;
+  color: #fff;
+  .banner-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: .64rem;
+    display: flex;
+    background: linear-gradient(top, rgba(0,0,0,0),rgba(0,0,0,0.8));
+  }
+  .title {
+    flex: 1;
+    font-size: .32rem;
+    padding: 0 .2rem;
+  }
+  .num {
+    height: .32rem;
+    line-height: .32rem;
+    border-radius: .2rem;
+    background: rgba(0,0,0,0.8);
+    padding: 0 .4rem;
+    margin-top: .14rem;
+  }
+  .iconfont {
+    font-size: .24rem;
+  }
+}

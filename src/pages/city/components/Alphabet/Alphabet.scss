@@ -1,0 +1,14 @@
+@import '~styles/var.scss';
+.city-alphabet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: .4rem;
+  position: absolute;
+  top: 1.58rem;
+  right: 0;
+  bottom: 0;
+  width: .4rem;
+  color: $bg-color;
+}

@@ -1,0 +1,35 @@
+@import '~styles/var.scss';
+.detail-header {
+  .header-abs {
+    position: absolute;
+    left: .2rem;
+    top: .2rem;
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+    border-radius: .4rem;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+  }
+  .header-fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    height: $header-height;
+    line-height: $header-height;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    background: $bg-color;
+    font-size: .32rem;
+    .header-left {
+      width: .64rem;
+      float: left;
+      padding-left: .2rem;
+      color: #fff;
+    }
+  }
+}

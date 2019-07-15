@@ -1,0 +1,38 @@
+@import '~styles/var.scss';
+.mod-header {
+  display: flex;
+  background: $bg-color;
+  color: #fff;
+  line-height: $header-height;
+  .header-left {
+    width: .64rem;
+    float: left;
+    padding-left: .2rem;
+  }
+  .header-right {
+    min-width: 1.04rem;
+    padding: 0 .1rem;
+    float: right;
+    text-align: center;
+    color: #fff;
+    .icon-down {
+      font-size: .2rem;
+      margin-left: .08rem;
+    }
+  }
+  .header-input {
+    flex: 1;
+    height: .64rem;
+    line-height: .64rem;
+    margin-left: .2rem;
+    background: #fff;
+    border-radius: .1rem;
+    margin-top: .12rem;
+    color: #ccc;
+    padding-left: .2rem;
+    .icon-search {
+      font-size: .2rem;
+      margin-right: .1rem;
+    }
+  }
+}

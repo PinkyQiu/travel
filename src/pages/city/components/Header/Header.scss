@@ -1,0 +1,16 @@
+@import '~styles/var.scss';
+.city-header {
+  height: $header-height;
+  line-height: $header-height;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+  background: $bg-color;
+  font-size: .32rem;
+  .header-left {
+    width: .64rem;
+    float: left;
+    padding-left: .2rem;
+    color: #fff;
+  }
+}
